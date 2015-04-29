@@ -22,7 +22,7 @@ def read_data(fname):
 
 
 def main():
-    read_data(sys.stdin)    #read_data("Word_Predection_Output.txt")
+    read_data("Word_Predection_Output.txt")
     sorted_lst = sorted(new_list, key=itemgetter(0))
     for e in sorted_lst:
         # print(e)

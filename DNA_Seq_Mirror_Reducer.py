@@ -21,7 +21,7 @@ def read_data(fname):
 
 
 def main():
-    read_data(sys.argv[1])
+    read_data("DNA_File.txt")
     sorted_lst = sorted(new_list, key=itemgetter(1))
     for c, g in groupby(sorted_lst, key=itemgetter(1)):
         for e in g:

@@ -1,0 +1,5 @@
+Voter	Votee
+A	C
+A	B
+B	C
+C	F

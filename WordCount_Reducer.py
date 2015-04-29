@@ -20,7 +20,7 @@ def read_data(fname):
 
 
 def main():
-    read_data(sys.argv[1])
+    read_data("output.txt")
     sorted_lst = sorted(new_list, key=itemgetter(0))
     for current_letter, group in groupby(sorted_lst, key=itemgetter(0)):
         gl = list(group)
